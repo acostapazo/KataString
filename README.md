@@ -1,3 +1,3 @@
-## KataString (iOS)
+# KataString (iOS)
 
 TODO
