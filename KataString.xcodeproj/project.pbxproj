@@ -13,6 +13,7 @@
 		403D8CC522818933002E678D /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 403D8CC422818933002E678D /* Assets.xcassets */; };
 		403D8CC822818933002E678D /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 403D8CC622818933002E678D /* LaunchScreen.storyboard */; };
 		403D8CD322818933002E678D /* KataStringTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 403D8CD222818933002E678D /* KataStringTests.swift */; };
+		403D8CDE22818B96002E678D /* README.md in Resources */ = {isa = PBXBuildFile; fileRef = 403D8CDD22818B96002E678D /* README.md */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -36,6 +37,9 @@
 		403D8CCE22818933002E678D /* KataStringTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = KataStringTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		403D8CD222818933002E678D /* KataStringTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = KataStringTests.swift; sourceTree = "<group>"; };
 		403D8CD422818933002E678D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		403D8CDD22818B96002E678D /* README.md */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
+		403D8CDF22818BD5002E678D /* .gitignore */ = {isa = PBXFileReference; lastKnownFileType = text; path = .gitignore; sourceTree = "<group>"; };
+		403D8CE022818BD5002E678D /* .travis */ = {isa = PBXFileReference; lastKnownFileType = text; path = .travis; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -59,6 +63,9 @@
 		403D8CB122818931002E678D = {
 			isa = PBXGroup;
 			children = (
+				403D8CDD22818B96002E678D /* README.md */,
+				403D8CDF22818BD5002E678D /* .gitignore */,
+				403D8CE022818BD5002E678D /* .travis */,
 				403D8CBC22818931002E678D /* KataString */,
 				403D8CD122818933002E678D /* KataStringTests */,
 				403D8CBB22818931002E678D /* Products */,
@@ -179,6 +186,7 @@
 			files = (
 				403D8CC822818933002E678D /* LaunchScreen.storyboard in Resources */,
 				403D8CC522818933002E678D /* Assets.xcassets in Resources */,
+				403D8CDE22818B96002E678D /* README.md in Resources */,
 				403D8CC322818931002E678D /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
