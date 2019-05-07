@@ -1,0 +1,6 @@
+language: swift
+osx_image: xcode10.1
+xcode_project: KataString.xcodeproj
+xcode_scheme: KataString
+xcode_sdk: iphonesimulator10.1
+
