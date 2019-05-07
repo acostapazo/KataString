@@ -14,6 +14,8 @@
 		403D8CC822818933002E678D /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 403D8CC622818933002E678D /* LaunchScreen.storyboard */; };
 		403D8CD322818933002E678D /* KataStringTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 403D8CD222818933002E678D /* KataStringTests.swift */; };
 		403D8CDE22818B96002E678D /* README.md in Resources */ = {isa = PBXBuildFile; fileRef = 403D8CDD22818B96002E678D /* README.md */; };
+		403D8CE32281969C002E678D /* StringCalculatorTest.swift in Sources */ = {isa = PBXBuildFile; fileRef = 403D8CE22281969C002E678D /* StringCalculatorTest.swift */; };
+		403D8CE522819775002E678D /* StringCalculator.swift in Sources */ = {isa = PBXBuildFile; fileRef = 403D8CE422819775002E678D /* StringCalculator.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -40,6 +42,8 @@
 		403D8CDD22818B96002E678D /* README.md */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
 		403D8CDF22818BD5002E678D /* .gitignore */ = {isa = PBXFileReference; lastKnownFileType = text; path = .gitignore; sourceTree = "<group>"; };
 		403D8CE122818DE5002E678D /* .travis.yml */ = {isa = PBXFileReference; lastKnownFileType = text; path = .travis.yml; sourceTree = "<group>"; };
+		403D8CE22281969C002E678D /* StringCalculatorTest.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StringCalculatorTest.swift; sourceTree = "<group>"; };
+		403D8CE422819775002E678D /* StringCalculator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StringCalculator.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -86,6 +90,7 @@
 			children = (
 				403D8CBD22818931002E678D /* AppDelegate.swift */,
 				403D8CBF22818931002E678D /* ViewController.swift */,
+				403D8CE422819775002E678D /* StringCalculator.swift */,
 				403D8CC122818931002E678D /* Main.storyboard */,
 				403D8CC422818933002E678D /* Assets.xcassets */,
 				403D8CC622818933002E678D /* LaunchScreen.storyboard */,
@@ -99,6 +104,7 @@
 			children = (
 				403D8CD222818933002E678D /* KataStringTests.swift */,
 				403D8CD422818933002E678D /* Info.plist */,
+				403D8CE22281969C002E678D /* StringCalculatorTest.swift */,
 			);
 			path = KataStringTests;
 			sourceTree = "<group>";
@@ -205,6 +211,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				403D8CE522819775002E678D /* StringCalculator.swift in Sources */,
 				403D8CC022818931002E678D /* ViewController.swift in Sources */,
 				403D8CBE22818931002E678D /* AppDelegate.swift in Sources */,
 			);
@@ -214,6 +221,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				403D8CE32281969C002E678D /* StringCalculatorTest.swift in Sources */,
 				403D8CD322818933002E678D /* KataStringTests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
